@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Puissance 4 - Emmanuel</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="puissance4.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+
+	</head>
+	<body>
+
+		<img height="170" id="logo" src="https://www.winningmoves.fr/shop/media/resized/430/320/catalog/category/Puissance4.png">
+
+		<div id="container">
+			<form method="POST" id="settings">
+				<label for="size">Grid size:</label>
+				<input name="size" id="row" type="number" placeholder="6" /> x <input name="size" id="column" type="number" placeholder="7" />
+				<br><br><label for="player">Player 1:</label>
+				<input name="player" id="player" type="text" autocomplete="off" />
+				<br><label for="player2">Player 2:</label>
+				<input name="player2" id="player2" type="text" autocomplete="off" />
+				<br><br><label for="color1">Player 1's color:</label>
+				<select name="color1">
+				  <option value="red">Red</option>
+				  <option value="yellow">Yellow</option>
+				  <option value="blue">Blue</option>
+				  <option value="green">Green</option>
+				</select>
+				<br><label for="color2">Player 2's color:</label>
+				<select name="color2">
+					<option value="yellow">Yellow</option>
+				  <option value="red">Red</option>
+				  <option value="blue">Blue</option>
+				  <option value="green">Green</option>
+				</select>
+				<br><br><input type="submit" value="Start"/>
+			</form>
+		</div>
+
+		<center>
+			<div style="display: none;" id="status"></div>
+			<div style="display: none;" id="puissance4"></div>
+			<br><button style="display: none;" id="again">Play again</button>
+			<br><br><button style="display: none;" id="back">Menu</button>
+		</center>
+		
+	</body>
+</html>

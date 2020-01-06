@@ -1,0 +1,66 @@
+body {
+    background: url('http://www.toca-ch.com/data/walls/26/22095517.jpg');
+    text-align: center;
+}
+
+/* LANCEMENT DE LA PARTIE */
+
+#container {
+    background-color: grey;
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#settings input[type="number"] {
+  width: 60px;
+}
+
+/* FIN - LANCEMENT DE LA PARTIE */
+
+/* DURANT LA PARTIE */
+
+#puissance4 {
+  background-color: #3A8EBA;
+  display: table;
+  width: auto;
+}
+
+.column {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.column-empty {
+  cursor: pointer;
+}
+
+ .prev-red {
+  background-color: darkred;
+}
+
+.prev-yellow {
+  background-color: #a17f1a;
+}
+
+.prev-green {
+  background-color: darkgreen;
+}
+
+.prev-blue {
+  background-color: darkblue;
+}
+
+#status {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* FIN - DURANT LA PARTIE */
